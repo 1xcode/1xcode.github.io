@@ -1,11 +1,11 @@
 import React from "react";
-import "./App.css";
 import "./styles/main.scss";
 import "./styles/fonts/css/font-awesome.min.css";
 import Nav from "./components/Nav-component";
 import Header from "./components/Header";
 import Card from "./components/Card";
 import data from "./components/data";
+import Footer from "./components/Footer";
 
 function App() {
   const cardlist = data.map((data) => (
@@ -25,6 +25,7 @@ function App() {
       <div className="band-container" data-layout="3-up">
         {cardlist}
       </div>
+      <Footer />
     </div>
   );
 }

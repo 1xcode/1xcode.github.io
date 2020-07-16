@@ -1,11 +1,13 @@
 @import "./nav";
 @import "./header";
 @import "./card";
+@import "./footer";
 
 $bg-color: #f0f0f0;
 
 body {
   margin: 1px;
+  text-align: center;
   background-color: $bg-color;
 }
 
