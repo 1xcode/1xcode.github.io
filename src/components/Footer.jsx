@@ -18,7 +18,19 @@ function Footer() {
       </footer>
       <div>
         <ul>
-          <li>Link 1</li>|<li>Link 2</li>|<li>Link 3</li>
+          <li>
+            <a href="#root">Home</a>
+          </li>
+          |
+          <li>
+            <a href="https://github.com/programming-zone">Github</a>
+          </li>
+          |
+          <li>
+            <a href="https://github.com/programming-zone/programming-zone.github.io">
+              Fork Me
+            </a>
+          </li>
         </ul>
       </div>
     </div>
