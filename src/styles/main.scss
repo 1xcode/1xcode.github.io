@@ -1,9 +1,33 @@
 @import "./nav";
 @import "./header";
+@import "./card";
 
 $bg-color: #f0f0f0;
 
 body {
   margin: 1px;
   background-color: $bg-color;
+}
+
+.band-container[data-layout="3-up"] {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(305px, 1fr));
+  grid-auto-rows: 1fr;
+  grid-gap: 15px;
+}
+// @media screen and (min-width: 992px) {
+//   .band-container {
+//     width: 970px;
+//   }
+// }
+// @media screen and (min-width: 768px) {
+//   .band-container {
+//     width: 750px;
+//     padding: 0;
+//   }
+// }
+.band-container {
+  padding: 0 9px;
+  margin-right: auto;
+  margin-left: auto;
 }

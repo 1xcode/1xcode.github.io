@@ -36,3 +36,14 @@
   font-weight: 600;
   line-height: 1.18;
 }
+
+.hero-copy {
+  margin-left: 8em;
+  margin-right: 8em;
+}
+@media screen and (max-width: 480px) {
+  .hero-copy {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}

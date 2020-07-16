@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div>
+    <div className="header-div">
       <section className="hero--component">
         <div className="hero-container" data-align="center">
           <h2 className="hero-heading">

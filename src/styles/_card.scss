@@ -1,0 +1,61 @@
+.card-body-headline {
+  color: #252527;
+  font-family: "RedHatText", "Overpass", Overpass, Helvetica, helvetica, arial,
+    sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.18;
+}
+
+.title-link {
+  text-decoration: none;
+  color: black;
+  &:hover {
+    color: blue;
+  }
+}
+
+.card--component[data-background="white"] {
+  background-color: #fff;
+}
+.card--component {
+  border-top: 5px solid #c00;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 30px;
+}
+
+.card--component > *:not(:last-child) {
+  padding-bottom: 30px;
+}
+.card-header {
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+
+.card--component [data-align="center"] {
+  text-align: center;
+}
+.card--component > *:not(:last-child) {
+  padding-bottom: 30px;
+}
+.card-body {
+  flex-grow: 1;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-footer-link {
+  color: #646464;
+  font-family: "RedHatText", "Overpass", Overpass, Helvetica, helvetica, arial,
+    sans-serif;
+  text-decoration: none;
+}
+
+a {
+  background-color: transparent;
+}
