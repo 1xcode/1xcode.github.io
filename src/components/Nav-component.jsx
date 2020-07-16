@@ -4,7 +4,7 @@ import logo from "../logo.png";
 
 const Nav = () => {
   return (
-    <div>
+    <div className="nav-div">
       <nav>
         <div className="navigation-group">
           <h1>Programming Zone on Github</h1>

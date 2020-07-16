@@ -1,5 +1,9 @@
 @import "./nav";
+@import "./header";
+
+$bg-color: #f0f0f0;
 
 body {
-  margin: 1em;
+  margin: 1px;
+  background-color: $bg-color;
 }

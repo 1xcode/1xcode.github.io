@@ -1,0 +1,38 @@
+.hero--component {
+  align-items: center;
+  background-color: #f0f0f0;
+  background-image: url(header-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  min-height: 40vh;
+  justify-content: center;
+}
+.hero--component {
+  padding-bottom: 60px;
+  padding-top: 60px;
+  position: relative;
+}
+
+.hero-container[data-align="center"] {
+  text-align: center;
+}
+.hero-container {
+  padding: 0 9px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero-heading:not(:last-child) {
+  padding-bottom: 20px;
+}
+
+.hero-heading {
+  color: #252527;
+  font-family: "RedHatDisplay", "Overpass", Overpass, Helvetica, helvetica,
+    arial, sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 1.18;
+}
