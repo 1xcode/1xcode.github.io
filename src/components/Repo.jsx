@@ -18,10 +18,12 @@ class Repo extends Component {
   render() {
     let num = this.state.repositories.length;
     return (
-      <div>
-        <h2>
-          <i className="fa fa-github"></i> {num} repositories
-        </h2>
+      <div className="repo-div">
+        <a href="https://github.com/programming-zone">
+          <h2>
+            <i className="fa fa-github"></i> {num} repositories
+          </h2>
+        </a>
       </div>
     );
   }
