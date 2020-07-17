@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Card from "./components/Card";
 import data from "./components/data";
 import Footer from "./components/Footer";
+import Repo from "./components/Repo";
 
 function App() {
   const cardlist = data.map((data) => (
@@ -25,6 +26,7 @@ function App() {
       <div className="band-container" data-layout="3-up">
         {cardlist}
       </div>
+      <Repo />
       <Footer />
     </div>
   );
