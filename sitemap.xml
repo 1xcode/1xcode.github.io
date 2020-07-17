@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
-<url>
-  <loc>https://programming-zone.github.io</loc>
-  <changefreq>hourly</changefreq>
-  <priority>1.0</priority>
-  <image:image>
-    <image:loc>https://programming-zone.github.io/static/media/logo.08bd3983.png</image:loc>
-    <image:caption>programming Zone</image:caption>
-  </image:image>
-</url>
-
-
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="https://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:video="https://www.google.com/schemas/sitemap-video/1.1"
+  xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
+        https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://programming-zone.github.io</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+       <image:loc>https://programming-zone.github.io/static/media/logo.08bd3983.png</image:loc>
+       <image:caption>Programming Zone</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://programming-zone.github.io</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+       <image:loc>https://programming-zone.github.io/static/media/logo.08bd3983.png</image:loc>
+       <image:caption>Programming Zone</image:caption>
+    </image:image>
+  </url>
 </urlset>
