@@ -1,0 +1,25 @@
+.profile-card {
+  padding: 10px;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+  width: 360px;
+  height: 60px;
+  text-align: justify;
+}
+
+.profile-container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  .pp {
+    img {
+      border-radius: 50%;
+    }
+  }
+  .pp-about {
+    padding-left: 5px;
+  }
+  .pp-footer {
+    justify-content: space-around;
+    display: flex;
+  }
+}
