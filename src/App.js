@@ -43,8 +43,7 @@ class App extends React.Component {
           {cardlist}
         </div>
         <Projects data={this.state.repositories} />
-        {/* TODO: Complete the Contributor component */}
-        {false && <Contributor />}
+        <Contributor />
         <Footer />
       </div>
     );

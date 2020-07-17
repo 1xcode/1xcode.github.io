@@ -1,4 +1,24 @@
-// TODO: Need to complete
 .contributor-div {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 4em;
+  padding-right: 4em;
   background-color: white;
+}
+@media screen and (max-width: 480px) {
+  .contributor-div {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+
+.con-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  row-gap: 10px;
+  column-gap: 3em;
+}
+
+.blue-link {
+  color: blue;
 }
