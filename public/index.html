@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Collaborating with a community is about more than developing code. Collaboration is the freedom to ask questions and offer improvements—that's the open source way."
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
@@ -15,6 +15,20 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Programming Zone",
+        "alternateName": "Programming Zone",
+        "url": "https://programming-zone.github.io",
+        "logo": "https://programming-zone.github.io/static/media/logo.08bd3983.png",
+        "sameAs": "https://github.com/programming-zone"
+      }
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -24,6 +38,31 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <meta property="og:type" content="organization" />
+    <meta property="og:title" content="Programming Zone" />
+    <meta
+      property="og:description"
+      content="Collaborating with a community is about more than developing code. Collaboration is the freedom to ask questions and offer improvements—that's the open source way."
+    />
+    <meta
+      property="og:image"
+      content="https://programming-zone.github.io/static/media/logo.08bd3983.png"
+    />
+    <meta property="og:url" content="https://programming-zone.github.io/" />
+    <meta property="og:site_name" content="Programming Zone" />
+
+    <!-- Twitter specific -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:url" content="https://programming-zone.github.io/" />
+    <meta name="twitter:title" content="Programming Zone" />
+    <meta
+      name="twitter:description"
+      content="Collaborating with a community is about more than developing code. Collaboration is the freedom to ask questions and offer improvements—that's the open source way."
+    />
+    <meta
+      name="twitter:image"
+      content="https://programming-zone.github.io/static/media/logo.08bd3983.png"
+    />
     <title>Programming Zone</title>
   </head>
   <body>
