@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Card from "./components/Card";
 import data from "./components/data";
 import Footer from "./components/Footer";
+import Contributor from "./components/Contributor";
 
 function App() {
   const cardlist = data.map((data) => (
@@ -25,7 +26,8 @@ function App() {
       <div className="band-container" data-layout="3-up">
         {cardlist}
       </div>
-
+      {/* TODO: Complete the Contributor component */}
+      {false && <Contributor />}
       <Footer />
     </div>
   );
