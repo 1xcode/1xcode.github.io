@@ -1,3 +1,17 @@
+@media screen and (max-width: 480px) {
+  .project-div {
+    table,
+    tr,
+    th,
+    td {
+      font-size: 1em;
+    }
+  }
+  .hidden {
+    display: none;
+  }
+}
+
 .project-div {
   margin: 1em;
 }
