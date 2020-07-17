@@ -5,31 +5,41 @@ function Projects(props) {
   let prolist = props.data.map((repo, i) => (
     <tr className={i % 2 === 0 ? `` : `selected`} key={repo.id}>
       <td>
-        <a href={repo.html_url}>{repo.name}</a>
+        <b>
+          <a href={repo.html_url}>{repo.name}</a>
+        </b>
+      </td>
+      <td className="hidden">
+        <i>
+          <a href={repo.html_url}> {repo.html_url} </a>
+        </i>
       </td>
       <td>
-        <a href={repo.html_url}> {repo.html_url} </a>
+        <code>
+          <b> {repo.language !== null ? repo.language : `Unknown`} </b>
+        </code>
       </td>
-      <td> {repo.language !== null ? repo.language : `Unknown`} </td>
     </tr>
   ));
   return (
     <div className="project-div">
       <h2>All Projects</h2>
       <br />
-      <table className="project-list">
-        <thead>
-          <tr className="selected">
-            <th>Project Name</th>
-            <th>Project Website</th>
-            <th>Technology</th>
-          </tr>
-        </thead>
-        <tbody>
-          <br />
-          {prolist}
-        </tbody>
-      </table>
+      <div>
+        <table className="project-list">
+          <thead>
+            <tr className="selected">
+              <th>Project Name</th>
+              <th className="hidden">Project Website</th>
+              <th>Technology</th>
+            </tr>
+          </thead>
+          <tbody>
+            <br />
+            {prolist}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
