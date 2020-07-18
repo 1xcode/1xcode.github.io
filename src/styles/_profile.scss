@@ -1,4 +1,5 @@
 .profile-card {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   padding: 10px;
   border-top: 1px solid #d3d3d3;
   border-bottom: 1px solid #d3d3d3;
@@ -8,8 +9,17 @@
 }
 
 .profile-container {
+  a {
+    &:hover {
+      cursor: pointer;
+      color: #00f;
+    }
+  }
   display: grid;
   grid-template-columns: 1fr 5fr;
+  .faded {
+    color: #666666;
+  }
   .pp {
     img {
       border-radius: 50%;

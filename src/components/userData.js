@@ -15,7 +15,8 @@ const userData = [
   {
     id: 2,
     name: "Injamul",
-    img: null,
+    img:
+      "https://avatars3.githubusercontent.com/u/43629828?s=460&u=e2219c36da773979394c6a9b90a390e0506ee434&v=4",
     username: "linuxuserin",
     userlink: "https://github.com/linuxuserin",
     isOrg: true,

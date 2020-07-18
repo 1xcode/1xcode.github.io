@@ -14,22 +14,30 @@ function Profile(props) {
           <span> </span>
           <span>
             <small>
-              <a href={props.userlink}> {props.username} </a>
+              <a className="faded" href={props.userlink}>
+                {" "}
+                {props.username}{" "}
+              </a>
             </small>
           </span>
           <br />
           <br />
           <div className="pp-footer">
             {props.isOrg && (
-              <div>
+              <div className="faded">
                 <i className="fa fa-building-o"></i>{" "}
-                <a href={props.orgLink}> {props.orgName} </a>
+                <small>
+                  <a className="faded" href={props.orgLink}>
+                    {" "}
+                    {props.orgName}{" "}
+                  </a>
+                </small>
               </div>
             )}
             {true && (
-              <div>
+              <div className="faded">
                 <i className="fa fa-map-marker"></i>{" "}
-                <a href="https://github.com"> {props.Loc} </a>
+                <small className="faded">{props.Loc}</small>
               </div>
             )}
             <div></div>
