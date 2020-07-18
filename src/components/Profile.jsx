@@ -16,7 +16,7 @@ function Profile(props) {
             <small>
               <a className="faded" href={props.userlink}>
                 {" "}
-                {props.username}{" "}
+                {props.username}
               </a>
             </small>
           </span>
