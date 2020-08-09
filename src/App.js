@@ -15,7 +15,7 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    fetch("https://api.github.com/orgs/programming-zone/repos")
+    fetch("https://api.github.com/orgs/programming-zone/repos?per_page=100")
       .then((data) => data.json())
       .then((res) => {
         this.setState({

@@ -6,7 +6,7 @@ class Repo extends Component {
   };
 
   componentDidMount() {
-    fetch("https://api.github.com/orgs/programming-zone/repos")
+    fetch("https://api.github.com/orgs/programming-zone")
       .then((data) => data.json())
       .then((res) => {
         this.setState({
@@ -16,12 +16,11 @@ class Repo extends Component {
   }
 
   render() {
-    let num = this.state.repositories.length;
     return (
       <div className="repo-div">
         <a href="https://github.com/programming-zone">
           <h2>
-            <i className="fa fa-github"></i> {num} repositories
+            <i className="fa fa-github"></i> { this.state.repositories.public_repos  } repositories
           </h2>
         </a>
       </div>
