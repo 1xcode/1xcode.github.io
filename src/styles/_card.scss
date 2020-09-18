@@ -50,7 +50,11 @@
 
 .card-footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.padding-space {
+  padding: 0 1em;
 }
 
 .card-footer-link {

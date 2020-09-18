@@ -23,13 +23,13 @@ function Card(props) {
           <p className="card-body-copy"> {props.description} </p>
         </div>
         <div className="card-footer">
-          <div className="card-footer-content" data-align="right">
+          <div className="card-footer-content padding-space" data-align="right">
             <a className="card-footer-link" href={props.website}>
               <i className="card-footer-icon fa fa-fw fa-globe"></i> Website
             </a>
           </div>
           |
-          <div className="card-footer-content" data-align="left">
+          <div className="card-footer-content padding-space" data-align="left">
             <a className="card-footer-link" href={props.url}>
               <i className="card-footer-icon fa fa-github"></i> Repo
             </a>
