@@ -21,10 +21,26 @@ function Projects(props) {
       </td>
     </tr>
   ));
+
+  let noresult = <tr><td colSpan="3"><b> No result found ! </b></td></tr> ;
+
   return (
     <div className="project-div">
       <h2>All Projects</h2>
       <br />
+      <div className="table-search">
+      <input className="table-search-input"
+      type="text"
+      placeholder="Search by project name..."
+      name="searchBar"
+      value={props.value}
+      onChange={(e) => props.handleChange(e)}
+      onKeyUp={(e) => props.handleChange(e)}
+      />
+      <button className="table-search-button"
+      type="submit"
+      onClick={(e) => props.handleSearch(e)} >Search</button>
+    </div>
       <div>
         <table className="project-list">
           <thead>
@@ -35,8 +51,7 @@ function Projects(props) {
             </tr>
           </thead>
           <tbody>
-            <br />
-            {prolist}
+            {props.repo.length === 0 && props.value !== "" ? noresult : prolist }
           </tbody>
         </table>
       </div>

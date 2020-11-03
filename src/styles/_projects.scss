@@ -43,3 +43,72 @@ td {
     background-color: gray;
   }
 }
+
+.table-search {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-gap: 0;
+  grid-template-columns: 7fr 1fr;
+}
+
+.table-search-input {
+  border-radius: 0;
+  padding: 5px;
+}
+// button,
+// input {
+//   overflow: visible;
+// }
+// button,
+// input,
+// optgroup,
+// select,
+// textarea {
+//   font-family: inherit;
+//   font-size: 100%;
+//   line-height: 1.15;
+//   margin: 0;
+// }
+
+input {
+  // -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: textfield;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 2px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+
+.table-search-button {
+  display: block;
+  border-width: 1px;
+  border-style: solid;
+  font-size: 16px;
+  line-height: 1.44;
+  padding: 8px 40px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 0;
+  background-color: #c00;
+  border-color: #c00;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
