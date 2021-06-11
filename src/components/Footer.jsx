@@ -1,13 +1,16 @@
 import React from "react";
-import logo from "../logo.png";
+import logo from "../logo-white.svg";
 
 function Footer() {
+
+  let year = new Date().getFullYear();
+
   return (
     <div className="footer-div">
       <footer>
         <div className="footer-group">
           <p className="footer-copyright" property="dc:rights">
-            Copyright ©<span property="dc:dateCopyrighted">2019–2020</span>{" "}
+            Copyright ©<span property="dc:dateCopyrighted">2019-{year}</span>{" "}
             <span property="dc:publisher">Programming Zone</span>
           </p>
         </div>

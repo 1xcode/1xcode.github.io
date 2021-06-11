@@ -18,7 +18,7 @@ class Repo extends Component {
   render() {
     return (
       <div className="repo-div">
-        <a href="https://github.com/programming-zone">
+        <a href="#home">
           <h2>
             <i className="fa fa-github"></i> { this.state.repositories.public_repos  } repositories
           </h2>

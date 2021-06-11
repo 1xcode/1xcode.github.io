@@ -1,10 +1,11 @@
 import React from "react";
 import Repo from "./Repo";
-import logo from "../logo.png";
+import logo from "../logo.gif";
 
 const Nav = () => {
   return (
-    <div className="nav-div">
+    <div className="">
+      <div className="nav-div bg-black">
       <nav>
         <div className="navigation-group">
           <h1>Programming Zone </h1>
@@ -13,6 +14,7 @@ const Nav = () => {
           <img width="64px" height="64px" src={logo} alt="logo" />
         </div>
       </nav>
+      </div>
       <Repo />
     </div>
   );
