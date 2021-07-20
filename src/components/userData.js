@@ -23,6 +23,18 @@ const userData = [
     isLoc: true,
     Loc: "Earth",
   },
+  {
+    id: 3,
+    name: "Asif Mohammad Mollah",
+    img: "https://avatars.githubusercontent.com/u/10460708?v=4",
+    username: "mrasif",
+    userlink: "https://github.com/mrasif",
+    isOrg: false,
+    orgName: "Github",
+    orgLink: "https://github.com",
+    isLoc: true,
+    Loc: "Earth",
+  },
 ];
 
 export default userData;
