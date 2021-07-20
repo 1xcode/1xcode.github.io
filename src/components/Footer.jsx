@@ -29,9 +29,7 @@ function Footer() {
           </li>
           |
           <li>
-            <a href="https://github.com/1xcode/1xcode.github.io">
-              Fork Me
-            </a>
+            <a href="https://github.com/1xcode/1xcode.github.io">Fork Me</a>
           </li>
         </ul>
       </div>

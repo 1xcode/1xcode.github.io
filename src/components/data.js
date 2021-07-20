@@ -9,11 +9,11 @@ const data = [
   },
   {
     id: 2,
-    img: "https://isocpp.org/files/img/cpp_logo.png",
-    title: "C Plus Plus Program",
+    img: "https://avatars.githubusercontent.com/in/29110?s=48&v=4",
+    title: "Standard Coding Styles",
     description:
-      "This Project is for the purpose of learning C++ together. Do contribute to this Project.",
-    url: "https://github.com/1xcode/C-Plus-Plus-Program",
+      "This repository is for learning standard coding styles. \n follow them in future for better coding.",
+    url: "https://github.com/1xcode/styleguide",
     website: "https://1xcode.github.io/",
   },
   {
@@ -24,14 +24,15 @@ const data = [
     url: "https://github.com/1xcode/Git_Tutorials",
     website: "https://git-scm.com/",
   },
-  // {
-  //   id: 0,
-  //   img: "",
-  //   title: "Demo",
-  //   description: "Description",
-  //   url: "https://github.com",
-  //   website: "https://github.com",
-  // },
+  {
+    id: 4,
+    img: "https://cdn.iconscout.com/icon/free/png-512/vim-2-1175074.png",
+    title: "Vim Distribution",
+    description:
+      "A vim configurations for multiple development environment (mainly focused on go and js)",
+    url: "https://github.com/mrinjamul/vim-in",
+    website: "https://1xcode.github.io",
+  },
 ];
 
 export default data;
