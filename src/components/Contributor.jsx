@@ -33,7 +33,7 @@ const Contributor = () => {
           partners creating better technology the open source way.
           <br />
           <br />
-          <a className="blue-link" href="https://github.com/programming-zone">
+          <a className="blue-link" href="https://github.com/1xcode">
             Let's Contribute{" "}
           </a>
           <i className=" blue-link fa fa-arrow-right "></i>

@@ -6,21 +6,21 @@
   xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
         https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://programming-zone.github.io</loc>
+    <loc>https://1xcode.github.io</loc>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <image:image>
-       <image:loc>https://programming-zone.github.io/static/media/logo.08bd3983.png</image:loc>
-       <image:caption>Programming Zone</image:caption>
+       <image:loc>https://1xcode.github.io/static/media/logo.08bd3983.png</image:loc>
+       <image:caption>1xcode</image:caption>
     </image:image>
   </url>
   <url>
-    <loc>https://programming-zone.github.io</loc>
+    <loc>https://1xcode.github.io</loc>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
     <image:image>
-       <image:loc>https://programming-zone.github.io/static/media/logo.08bd3983.png</image:loc>
-       <image:caption>Programming Zone</image:caption>
+       <image:loc>https://1xcode.github.io/static/media/logo.08bd3983.png</image:loc>
+       <image:caption>1xcode</image:caption>
     </image:image>
   </url>
 </urlset>

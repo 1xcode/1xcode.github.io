@@ -2,10 +2,10 @@ const data = [
   {
     id: 1,
     img: "https://avatars3.githubusercontent.com/u/53279732?s=200&v=4",
-    title: "Programming Zone",
+    title: "1xcode",
     description: "Our Main Project",
-    url: "https://github.com/programming-zone",
-    website: "https://programming-zone.github.io/",
+    url: "https://github.com/1xcode",
+    website: "https://1xcode.github.io/",
   },
   {
     id: 2,
@@ -13,15 +13,15 @@ const data = [
     title: "C Plus Plus Program",
     description:
       "This Project is for the purpose of learning C++ together. Do contribute to this Project.",
-    url: "https://github.com/programming-zone/C-Plus-Plus-Program",
-    website: "https://programming-zone.github.io/",
+    url: "https://github.com/1xcode/C-Plus-Plus-Program",
+    website: "https://1xcode.github.io/",
   },
   {
     id: 3,
     img: "https://git-scm.com/images/logo@2x.png",
     title: "Git Tutorials",
     description: "The purpose of this project is to learn Git to the beginners",
-    url: "https://github.com/programming-zone/Git_Tutorials",
+    url: "https://github.com/1xcode/Git_Tutorials",
     website: "https://git-scm.com/",
   },
   // {

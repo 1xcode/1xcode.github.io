@@ -1,0 +1,8 @@
+.cache
+.github
+.git
+# package.json
+package-lock.json
+yarn.lock
+build
+src/serviceWorker.js

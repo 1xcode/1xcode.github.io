@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
-Sitemap: https://programming-zone.github.io/sitemap.xml
+Sitemap: https://1xcode.github.io/sitemap.xml
 User-agent: *
 Disallow:
